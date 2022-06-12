@@ -1,0 +1,143 @@
+#shop-products-filter {
+
+    .filter-d-none {
+        display: none;
+    }
+
+    .filters, .offcanvas-body {
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+        .header {
+            
+            h3 {
+                font-size: 20px;
+                font-family: 'Fredoka One', cursive;
+                color: #FF0000;
+                padding: 10px 20px;
+            }
+        }
+
+        .options {
+            ul {
+                
+                li {
+                    padding: 5px 20px;
+                    a {
+                        text-decoration: none;
+                        color: #000000;
+                        font-size: 16px;
+                        font-family: "Poppins" , sans-serif;
+                        transition: all .5s ease;
+
+                        &:hover {
+                            color: #FF0000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .products {
+        .product {
+
+            box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+            &:hover {
+                .options {
+                    bottom: 30px !important;
+                    visibility: visible !important;
+                    opacity: 1 !important;
+                }
+
+                .image {
+                    img {
+                        transform: scale(1.1 , 1.1);
+                    }
+                }
+            }
+
+            .image {
+                position: relative;
+                display: flex;
+                overflow: hidden;
+                justify-content: center;
+
+                .discount-percent {
+                    left: 10px;
+                    top: 10px;
+                    span {
+                        padding: 3px;
+                        color: #ffffff;
+                        font-weight: 500;
+                        font-family: 'Poppins', sans-serif;
+                        background-color: #ff0000;
+                        border-radius: 10px;
+                        
+                    }
+                }
+
+                img {
+                    height: 263px;
+                    transition: all .5s ease;
+                }
+
+                .options {
+                    position: absolute;
+                    bottom: 0px;
+                    width: 100%;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all .5s ease;
+
+                    ul {
+                        background-color: rgba($color: #000000, $alpha: 0.6);
+                        justify-content: center;
+                        li {
+                            a {
+                                i {
+                                    font-size: 20px;
+                                    color: #FFFFFF;
+                                    padding: 10px 12px;
+
+                                    &:hover {
+                                        color: #ff0000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+            .desc {
+                .name {
+                    h3 {
+                        font-size: 22px;
+                        font-weight: 500;
+                        font-family: 'Righteous', cursive;
+                    }
+                }
+
+                .price {
+                    span {
+                        font-size: 20px;
+                        font-weight: 600;
+                        font-family: 'Poppins', sans-serif;
+                    }
+
+                    .sale-price {
+                        text-decoration: line-through;
+                        color: #74706B;
+                    }
+
+                    .unit {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

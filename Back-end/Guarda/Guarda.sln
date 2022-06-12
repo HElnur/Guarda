@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda", "Guarda\Guarda.csproj", "{FF4C1AA8-DEF1-4FB1-B6ED-6230D712F81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF4C1AA8-DEF1-4FB1-B6ED-6230D712F81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4C1AA8-DEF1-4FB1-B6ED-6230D712F81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4C1AA8-DEF1-4FB1-B6ED-6230D712F81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4C1AA8-DEF1-4FB1-B6ED-6230D712F81F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A6FC76F-AE68-4018-8489-80921018AF5D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+#cart {
+    #header {
+        background-color: #f3ead8;
+        height: 20vh;
+        h1 {
+            font-size: 50px;
+            font-family: "Poppins" , sans-serif;
+        }
+    }
+
+    #product-table {
+        .prod-table {
+            font-family: 'Rubik', sans-serif;
+
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            thead {
+                background-color: #F9F9F9;
+                border: 1px solid #e6e3e3;
+                text-align: center;
+
+                th {
+                    padding: 10px;
+                }
+            }
+
+            tbody {
+
+                td {
+                    vertical-align: middle;
+
+                    a {
+                        text-decoration: none;
+                        color: red;
+                    }
+                }
+
+                border-top: none;
+                text-align: center;
+
+                img {
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+        }
+
+        .return-shop {
+            margin-bottom: 30px;
+
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+                padding: 10px 15px;
+                background-color: #FF0000;
+                font-family: 'Rubik', sans-serif;
+                border-radius: 0.3rem;
+            }
+        }
+    }
+}
