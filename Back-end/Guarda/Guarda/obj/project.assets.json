@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Guarda\\Back-end\\Guarda\\Guarda\\Guarda.csproj",
+      "projectUniqueName": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\Guarda.csproj",
       "projectName": "Guarda",
-      "projectPath": "D:\\Guarda\\Back-end\\Guarda\\Guarda\\Guarda.csproj",
+      "projectPath": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\Guarda.csproj",
       "packagesPath": "C:\\Users\\HP-2022\\.nuget\\packages\\",
-      "outputPath": "D:\\Guarda\\Back-end\\Guarda\\Guarda\\obj\\",
+      "outputPath": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP-2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
