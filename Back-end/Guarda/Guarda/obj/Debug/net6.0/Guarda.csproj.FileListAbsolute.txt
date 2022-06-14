@@ -59,3 +59,7 @@ D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\runtimes\win\lib\netcor
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Data.dll
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Data.pdb
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\obj\Debug\net6.0\Guarda.csproj.CopyComplete
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Core.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Core.pdb
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Humanizer.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

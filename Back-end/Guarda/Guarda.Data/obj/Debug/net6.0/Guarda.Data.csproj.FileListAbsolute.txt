@@ -12,3 +12,6 @@ D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\refint\Guarda.Data
 D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.pdb
 D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.genruntimeconfig.cache
 D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\ref\Guarda.Data.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Core.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Core.pdb
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.csproj.CopyComplete

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Guarda.Core.Configurations
 {
-    internal class ServiceConfiguration : IEntityTypeConfiguration<Services>
+    public class ServiceConfiguration : IEntityTypeConfiguration<Services>
     {
         public void Configure(EntityTypeBuilder<Services> builder)
         {
