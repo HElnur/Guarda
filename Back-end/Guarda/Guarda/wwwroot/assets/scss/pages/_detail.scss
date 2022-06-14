@@ -1,0 +1,209 @@
+#detail {
+    .product-info {
+        .prod-name {
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                font-family: "Poppins" , sans-serif;
+            }
+            margin-bottom: 20px;
+        }
+
+        .prod-rate {
+            i {
+                font-size: 20px;
+            }
+            .bxs-star {
+                color: #FFD700;
+            }
+            margin-bottom: 20px;
+        }
+
+        .prod-price {
+            margin-bottom: 20px;
+            h2 {
+                font-size: 25px;
+                font-family: "Poppins" , sans-serif;
+            }
+        }
+
+        .prod-desc {
+            margin-bottom: 30px;
+            p {
+                padding-right: 100px;
+                font-size: 18px;
+                font-family: "Poppins" , sans-serif;
+                line-height: 30px;
+            }
+        }
+
+        .prod-basket-hearth {
+            ul {
+                li {
+                    padding: 0px 10px;
+                    a {
+                        color: #FF0000;
+                        border: 1px solid #FF0000;
+                        padding: 10px 20px;
+                        border-radius: 10px;
+                        text-decoration: none;
+                        font-family: "Poppins" , sans-serif;
+                        transition: all .5s ease;
+                        &:hover {
+                            background-color: #FF0000;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .owl-carousel {
+        .owl-nav {
+            .owl-prev {
+                position: absolute;
+                top: 40%;
+                // margin-left: -20px;
+                display: flex !important;
+                border: 0px solid black;
+                justify-content: center;
+                align-content: center;
+
+                span {
+                    font-size: 40px;
+                    padding: 12px 10px 20px 10px;
+                    color: #FFFFFF;
+                    background-color: rgba(0, 0, 0, 0.6);
+                }
+            }
+
+            .owl-next {
+                position: absolute;
+                top: 40%;
+                right: 0px;
+                display: flex !important;
+                border: 0px solid black;
+
+                span {
+                    font-size: 40px;
+                    padding: 12px 10px 20px 10px;
+                    color: #FFFFFF;
+                    background-color: rgba(0, 0, 0, 0.6);
+                }
+            }
+
+            .owl-prev i,
+            .owl-next i {
+                transform: scale(1, 6);
+                color: #ccc;
+            }
+        }
+
+        .owl-stage {
+            margin: 20px 0px;
+        }
+        .item {
+            .product {
+
+                box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+                &:hover {
+                    .options {
+                        bottom: 30px !important;
+                        visibility: visible !important;
+                        opacity: 1 !important;
+                    }
+
+                    .image {
+                        img {
+                            transform: scale(1.1 , 1.1);
+                        }
+                    }
+                }
+
+                .image {
+                    position: relative;
+                    display: flex;
+                    overflow: hidden;
+                    justify-content: center;
+
+                    .discount-percent {
+                        left: 10px;
+                        top: 10px;
+                        span {
+                            padding: 3px;
+                            color: #ffffff;
+                            font-weight: 500;
+                            font-family: 'Poppins', sans-serif;
+                            background-color: #ff0000;
+                            border-radius: 10px;
+                            
+                        }
+                    }
+
+                    img {
+                        height: 263px;
+                        transition: all .5s ease;
+                    }
+
+                    .options {
+                        position: absolute;
+                        bottom: 0px;
+                        width: 100%;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: all .5s ease;
+
+                        ul {
+                            background-color: rgba($color: #000000, $alpha: 0.6);
+                            justify-content: center;
+                            li {
+                                a {
+                                    i {
+                                        font-size: 20px;
+                                        color: #FFFFFF;
+                                        padding: 10px 12px;
+
+                                        &:hover {
+                                            color: #ff0000;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+                .desc {
+                    .name {
+                        h3 {
+                            font-size: 22px;
+                            font-weight: 500;
+                            font-family: 'Righteous', cursive;
+                        }
+                    }
+
+                    .price {
+                        span {
+                            font-size: 20px;
+                            font-weight: 600;
+                            font-family: 'Poppins', sans-serif;
+                        }
+
+                        .sale-price {
+                            text-decoration: line-through;
+                            color: #74706B;
+                        }
+
+                        .unit {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
