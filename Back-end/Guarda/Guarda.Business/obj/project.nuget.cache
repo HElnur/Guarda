@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9D4IWhUzuQ7yLppfrbORzR3Y7chXHTbFVPdSrjf5Km+2A856OUN2avsnU4zkeum6sskZOmkmSkBEkLbAzj7VXA==",
+  "success": true,
+  "projectFilePath": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda.Business\\Guarda.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP-2022\\.nuget\\packages\\fluentvalidation\\11.0.3\\fluentvalidation.11.0.3.nupkg.sha512",
+    "C:\\Users\\HP-2022\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.3\\fluentvalidation.aspnetcore.11.0.3.nupkg.sha512",
+    "C:\\Users\\HP-2022\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.3\\fluentvalidation.dependencyinjectionextensions.11.0.3.nupkg.sha512",
+    "C:\\Users\\HP-2022\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

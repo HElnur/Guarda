@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda", "Guarda\Guarda.csproj", "{22EFBA9F-5469-49E5-A9F5-591B70799199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guarda", "Guarda\Guarda.csproj", "{22EFBA9F-5469-49E5-A9F5-591B70799199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda.Data", "Guarda.Data\Guarda.Data.csproj", "{06E1CBB2-DC2E-492F-BE11-FF6FB97AC30B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guarda.Data", "Guarda.Data\Guarda.Data.csproj", "{06E1CBB2-DC2E-492F-BE11-FF6FB97AC30B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda.Core", "Guarda.Core\Guarda.Core.csproj", "{107A4939-A23B-4B5D-A511-CDF1F9FC2913}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guarda.Core", "Guarda.Core\Guarda.Core.csproj", "{107A4939-A23B-4B5D-A511-CDF1F9FC2913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda.Business", "Guarda.Business\Guarda.Business.csproj", "{135FF901-AB84-466C-8831-AC86A6D623F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{107A4939-A23B-4B5D-A511-CDF1F9FC2913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{107A4939-A23B-4B5D-A511-CDF1F9FC2913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{107A4939-A23B-4B5D-A511-CDF1F9FC2913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135FF901-AB84-466C-8831-AC86A6D623F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135FF901-AB84-466C-8831-AC86A6D623F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135FF901-AB84-466C-8831-AC86A6D623F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135FF901-AB84-466C-8831-AC86A6D623F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
