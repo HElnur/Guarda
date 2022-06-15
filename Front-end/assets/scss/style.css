@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
@@ -1558,6 +1559,190 @@ body {
 
 #detail .owl-carousel .item .product .desc .price .unit {
   font-size: 18px;
+}
+
+#detail #comments {
+  margin-bottom: 150px;
+}
+
+#detail #comments .rate {
+  float: left;
+  height: 46px;
+}
+
+#detail #comments .rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+#detail #comments .rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+#detail #comments .rate:not(:checked) > label:before {
+  content: '★ ';
+}
+
+#detail #comments .rate > input:checked ~ label {
+  color: #ffc700;
+}
+
+#detail #comments .rate:not(:checked) > label:hover,
+#detail #comments .rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+
+#detail #comments .rate > input:checked + label:hover,
+#detail #comments .rate > input:checked + label:hover ~ label,
+#detail #comments .rate > input:checked ~ label:hover,
+#detail #comments .rate > input:checked ~ label:hover ~ label,
+#detail #comments .rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+#detail #comments textarea {
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+#detail #comments .comments {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 27px;
+  box-sizing: border-box;
+  top: 5em;
+}
+
+#detail #comments .comments::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#detail #comments h2 {
+  color: #111;
+  font: 900 1.75em 'Roboto', 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#detail #comments h2::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 0.25em;
+  background: #FF0000;
+  margin-top: 0.5em;
+}
+
+#detail #comments .comments__form-text {
+  width: 100%;
+  margin: 0;
+  float: right;
+}
+
+#detail #comments .comments__form-field {
+  position: relative;
+}
+
+#detail #comments .comments__form-label {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font: 700 1.125em 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif';
+  cursor: text;
+  pointer-events: none;
+}
+
+#detail #comments .comments__form-label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #111;
+  bottom: 1em;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+#detail #comments .comments__form-label-text {
+  display: block;
+  transform: translateY(100%);
+  opacity: 0;
+  transition-duration: 0.5s;
+  transition-property: transform, opacity;
+}
+
+#detail #comments .comments__form-input {
+  position: relative;
+  width: 100%;
+  padding: 1em 0;
+  border: 0;
+  outline: 0;
+  margin: 1em 0;
+  border-bottom: 3px solid #ddd;
+  vertical-align: bottom;
+  font: 400 1.125em 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif';
+}
+
+#detail #comments .comments__form-input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#detail #comments .comments__form-input:focus + .comments__form-label .comments__form-label-text {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#detail #comments .comments__form-input:focus + .comments__form-label::after {
+  transform: scaleX(1);
+}
+
+#detail #comments .comments__form-textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 168px;
+}
+
+#detail #comments .comments__form-submit {
+  padding: 0.5em;
+  margin: 1em 0;
+  background: none;
+  border: 3px solid #111;
+  font: 700 1em 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  opacity: 0.25;
+}
+
+#detail #comments .comments__form-submit:hover {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 1020px) {
+  #detail #comments .comments {
+    width: 970px;
+    padding: 52px;
+  }
+  #detail #comments .comments__form-info {
+    width: 407px;
+  }
+  #detail #comments .comments__form-text {
+    width: 407px;
+  }
 }
 
 #services {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z+e1vVPFf94rZJ2NFzaUlog624LyW7D2c57u/niK+T8=",
+  "Hash": "x+Aod/x0e8FzB7yCGV/AGTasNKyiieC8tBHhxPlqOps=",
   "Source": "Guarda",
   "BasePath": "_content/Guarda",
   "Mode": "Default",
@@ -729,6 +729,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\scss\\pages\\_categories-boxes.scss"
+    },
+    {
+      "Identity": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\wwwroot\\assets\\scss\\pages\\_comment.scss",
+      "SourceId": "Guarda",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\wwwroot\\",
+      "BasePath": "_content/Guarda",
+      "RelativePath": "assets/scss/pages/_comment.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\scss\\pages\\_comment.scss"
     },
     {
       "Identity": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\wwwroot\\assets\\scss\\pages\\_detail.scss",
