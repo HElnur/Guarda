@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Guarda.Core.Entities
 {
-    internal class Comment:BaseEntity
+    public class Comment:BaseEntity
     {
         public int ProductId { get; set; }
         public string AppUserId { get; set; }

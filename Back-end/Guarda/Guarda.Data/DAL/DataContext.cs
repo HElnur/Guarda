@@ -1,5 +1,6 @@
 ﻿using Guarda.Core.Configurations;
 using Guarda.Core.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,15 +10,12 @@ using System.Threading.Tasks;
 
 namespace Guarda.Data.DAL
 {
-    public class DataContext:DbContext
+    public class DataContext:IdentityDbContext
     {
         public DataContext(DbContextOptions<DataContext> options):base(options)
         {
 
         }
-
-        public DbSet<Services> Services { get; set; }
-        public DbSet<HomeSlider> HomeSliders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,6 +23,18 @@ namespace Guarda.Data.DAL
 
             modelBuilder.ApplyConfiguration(new ServiceConfiguration());
             modelBuilder.ApplyConfiguration(new HomeSliderConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfiguration(new CommentConfiguration());
+            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+            modelBuilder.ApplyConfiguration(new AppUserConfiguration());
+
+            base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<Services> Services { get; set; }
+        public DbSet<HomeSlider> HomeSliders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

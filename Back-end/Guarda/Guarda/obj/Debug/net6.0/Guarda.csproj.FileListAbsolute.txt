@@ -63,3 +63,8 @@ D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Core.dll
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Core.pdb
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Humanizer.dll
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

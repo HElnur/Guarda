@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Guarda.Core.Entities
 {
-    internal class Category:BaseEntity
+    public class Category:BaseEntity
     {
         public string Name { get; set; }
         public List<Product> Products { get; set; }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Guarda.Core.Configurations
 {
-    internal class ProductConfiguration : IEntityTypeConfiguration<Product>
+    public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
@@ -28,6 +28,8 @@ namespace Guarda.Core.Configurations
             builder.Property(p => p.SalePrice)
                 .IsRequired(true)
                 .HasColumnType("decimal(18,2)");
+
+            builder.Ignore(p => p.ImageFile);
 
         }
     }
