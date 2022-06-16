@@ -68,3 +68,9 @@ D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.AspNetCore.Cr
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\obj\Debug\net6.0\Guarda.MvcApplicationPartsAssemblyInfo.cs
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\FluentValidation.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Business.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda\bin\Debug\net6.0\Guarda.Business.pdb

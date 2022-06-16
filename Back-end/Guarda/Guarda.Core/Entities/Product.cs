@@ -23,6 +23,7 @@ namespace Guarda.Core.Entities
         public bool IsSport { get; set; }
         public bool IsSmart { get; set; }
         public Category Category { get; set; }
+        public List<Comment> Comments { get; set; }
 
     }
 }

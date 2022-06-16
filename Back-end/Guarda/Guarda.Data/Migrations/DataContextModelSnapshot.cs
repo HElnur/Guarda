@@ -431,7 +431,7 @@ namespace Guarda.Data.Migrations
                         .IsRequired();
 
                     b.HasOne("Guarda.Core.Entities.Product", "Product")
-                        .WithMany()
+                        .WithMany("Comments")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -506,6 +506,11 @@ namespace Guarda.Data.Migrations
             modelBuilder.Entity("Guarda.Core.Entities.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Guarda.Core.Entities.Product", b =>
+                {
+                    b.Navigation("Comments");
                 });
 #pragma warning restore 612, 618
         }
