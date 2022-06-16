@@ -24,6 +24,7 @@ namespace Guarda.Controllers
                 ClassicProducts = _context.Products.Where(x => x.IsClassic).ToList(),
                 SportProducts = _context.Products.Where(x => x.IsSport).ToList(),
                 SmartProducts = _context.Products.Where(x => x.IsSmart).ToList(),
+                LikedProducts = _context.Products.Where(x => x.IsLike).ToList(),
             };
             
             return View(homeVM);

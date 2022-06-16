@@ -9,5 +9,6 @@ namespace Guarda.ViewModels
         public List<Product> ClassicProducts { get; set; }
         public List<Product> SportProducts { get; set; }
         public List<Product> SmartProducts { get; set; }
+        public List<Product> LikedProducts { get; set; }
     }
 }

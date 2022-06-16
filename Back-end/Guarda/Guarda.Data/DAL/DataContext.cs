@@ -27,7 +27,7 @@ namespace Guarda.Data.DAL
             modelBuilder.ApplyConfiguration(new CommentConfiguration());
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
             modelBuilder.ApplyConfiguration(new AppUserConfiguration());
-
+            modelBuilder.ApplyConfiguration(new TestimonialConfiguration());
             base.OnModelCreating(modelBuilder);
         }
 
@@ -36,5 +36,6 @@ namespace Guarda.Data.DAL
         public DbSet<Product> Products { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Testimonial> Testimonials { get; set; }
     }
 }

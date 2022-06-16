@@ -140,10 +140,16 @@ namespace Guarda.Data.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsLike")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsSmart")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsSport")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsSuggestion")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")

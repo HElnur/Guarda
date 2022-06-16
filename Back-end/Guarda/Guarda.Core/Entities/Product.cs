@@ -22,6 +22,8 @@ namespace Guarda.Core.Entities
         public bool IsClassic { get; set; }
         public bool IsSport { get; set; }
         public bool IsSmart { get; set; }
+        public bool IsLike { get; set; }
+        public bool IsSuggestion { get; set; }
         public Category Category { get; set; }
         public List<Comment> Comments { get; set; }
 
