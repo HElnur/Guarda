@@ -1,0 +1,43 @@
+header {
+    #discount-header {
+        height: 47.6px;
+        background-color: #16161A;
+
+        h3 {
+            color: #FFFFFF;
+            font-size: 17px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        a {
+            font-size: 17px;
+            padding-left: 15px;
+            font-family: 'Poppins', sans-serif;
+            color: #CEBD9C;
+            text-decoration: 3px underline;
+            
+        }
+
+        .discount-link {
+            transition: all .5s ease;
+            &:hover {
+                letter-spacing: 5px;
+            }
+        }
+
+        form {
+            width: 100%;
+            input {
+                width: 70%;
+                height: 40.6px;
+            }
+    
+            ::placeholder {
+                color: #000000;
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}

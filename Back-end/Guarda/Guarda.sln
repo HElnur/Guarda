@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda", "Guarda\Guarda.csproj", "{3ABEC82D-3E66-472C-A28A-89DA08D86E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda.Core", "Guarda.Core\Guarda.Core.csproj", "{7B6A5605-C896-453F-8C21-99A158E7E901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guarda.Data", "Guarda.Data\Guarda.Data.csproj", "{84F4D189-D836-42BC-A919-3542A89FE3F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ABEC82D-3E66-472C-A28A-89DA08D86E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABEC82D-3E66-472C-A28A-89DA08D86E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABEC82D-3E66-472C-A28A-89DA08D86E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABEC82D-3E66-472C-A28A-89DA08D86E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6A5605-C896-453F-8C21-99A158E7E901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6A5605-C896-453F-8C21-99A158E7E901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6A5605-C896-453F-8C21-99A158E7E901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6A5605-C896-453F-8C21-99A158E7E901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F4D189-D836-42BC-A919-3542A89FE3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F4D189-D836-42BC-A919-3542A89FE3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F4D189-D836-42BC-A919-3542A89FE3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F4D189-D836-42BC-A919-3542A89FE3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33427513-DE2F-4CF3-A6F6-AB5A72953C0F}
+	EndGlobalSection
+EndGlobal

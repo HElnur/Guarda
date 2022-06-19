@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500&display=swap');
+
+header {
+    #top-header {
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+
+        ul {
+            align-items: center;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .top-menu {
+            li {
+
+                &::after {
+                    content: '';
+                    border-right: 1px solid rgb(155, 155, 155);
+                    margin: 0px 10px;
+                }
+
+                a {
+                    color: #000000;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    transition: all .5s ease;
+
+                    &:hover {
+                        color: #FF0000;
+                    }
+                }
+            }
+        }
+
+        .top-social {
+            li {
+                padding: 0px 5px;
+
+                a {
+                    color: #000000;
+                    transition: all .5s ease;
+                    font-size: 18px;
+
+                    &:hover {
+                        display: block;
+                        color: #FF0000;
+                        transform: rotateY(180deg);
+                        transition: all .5s ease;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.csproj.AssemblyReference.cache
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.AssemblyInfoInputs.cache
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.AssemblyInfo.cs
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.csproj.CoreCompileInputs.cache
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Data.deps.json
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Data.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Data.pdb
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Core.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Core.pdb
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.csproj.CopyComplete
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\refint\Guarda.Data.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.pdb
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\ref\Guarda.Data.dll
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\bin\Debug\net6.0\Guarda.Data.runtimeconfig.json
+D:\Guarda\Guarda\Back-end\Guarda\Guarda.Data\obj\Debug\net6.0\Guarda.Data.genruntimeconfig.cache
