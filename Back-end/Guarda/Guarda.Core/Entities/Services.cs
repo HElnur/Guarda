@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Guarda.Core.Entities
 {
-    public class Services
+    public class Services:BaseEntity
     {
         public string Name { get; set; }    
         public string Description { get; set; }

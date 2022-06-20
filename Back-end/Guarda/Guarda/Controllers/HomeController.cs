@@ -20,6 +20,7 @@ namespace Guarda.Controllers
             HomeViewModel homeVM = new HomeViewModel
             {
                 HeroSliders = _context.HeroSlider.ToList(),
+                Services = _context.Services.ToList(),
             };
 
             return View(homeVM);

@@ -21,10 +21,12 @@ namespace Guarda.Data.DAL
         {
 
             modelBuilder.ApplyConfiguration(new HeroSliderConfiguration());
+            modelBuilder.ApplyConfiguration(new ServiceConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<HeroSlider> HeroSlider { get; set; }
+        public DbSet<Services> Services { get; set; }
     }
 }
