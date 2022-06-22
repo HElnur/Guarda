@@ -28,5 +28,9 @@ namespace Guarda.Core.Entities
 
         public int SubcategoryId { get; set; }
         public Subcategory Subcategory { get; set; }
+
+        //Product comment
+        public int ProductCommentId { get; set; }
+        public ProductComment Comment { get; set; }
     }
 }

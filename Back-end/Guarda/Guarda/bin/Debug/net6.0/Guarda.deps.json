@@ -529,7 +529,8 @@
       },
       "Guarda.Core/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Http": "2.2.2"
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.6"
         },
         "runtime": {
           "Guarda.Core.dll": {}
