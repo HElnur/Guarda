@@ -12,6 +12,7 @@ namespace Guarda.Core.Entities
         public string FullName { get; set; }
 
         //Audit info
+        public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
 
         //Deletable info
