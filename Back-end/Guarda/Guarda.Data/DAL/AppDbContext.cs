@@ -22,11 +22,24 @@ namespace Guarda.Data.DAL
 
             modelBuilder.ApplyConfiguration(new HeroSliderConfiguration());
             modelBuilder.ApplyConfiguration(new ServiceConfiguration());
+            modelBuilder.ApplyConfiguration(new AppUserConfiguration());
+            modelBuilder.ApplyConfiguration(new BrandConfiguration());
+            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+            modelBuilder.ApplyConfiguration(new SubcategoryConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductCommentConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+
 
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<HeroSlider> HeroSlider { get; set; }
         public DbSet<Services> Services { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Subcategory> Subcategories { get; set; }
+        public DbSet<ProductComment> ProductComments { get; set; }
+        public DbSet<SubBrand> SubBrands { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

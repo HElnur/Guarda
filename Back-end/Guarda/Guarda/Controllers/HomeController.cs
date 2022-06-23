@@ -21,6 +21,13 @@ namespace Guarda.Controllers
             {
                 HeroSliders = _context.HeroSlider.ToList(),
                 Services = _context.Services.ToList(),
+                Categories = _context.Categories.ToList(),
+                IsClassic = _context.Products.Where(x => x.Subcategory.Name == "Classic").ToList(),
+                IsSport = _context.Products.Where(x => x.IsSport).ToList(),
+                IsSmart = _context.Products.Where(x => x.IsSmart).ToList(),
+                IsLike = _context.Products.Where(x => x.IsLike).ToList(),
+
+
             };
 
             return View(homeVM);

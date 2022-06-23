@@ -21,6 +21,7 @@ namespace Guarda.Core.Entities
         public bool IsSport { get; set; }
         public bool IsSmart { get; set; }
         public bool IsLike { get; set; }
+        public bool IsSuggestion { get; set; }
         public bool IsDeleted { get; set; }
         public DateTime? UpdateAt { get; set; }
 
@@ -30,7 +31,6 @@ namespace Guarda.Core.Entities
         public Subcategory Subcategory { get; set; }
 
         //Product comment
-        public int ProductCommentId { get; set; }
-        public ProductComment Comment { get; set; }
+        public List<ProductComment> ProductComments { get; set; }
     }
 }

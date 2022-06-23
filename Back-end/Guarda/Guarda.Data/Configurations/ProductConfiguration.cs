@@ -21,6 +21,8 @@ namespace Guarda.Data.Configurations
 
             builder.Property(p => p.CostPrice).HasColumnType("decimal(18,2)").IsRequired(true);
 
+            builder.Property(p => p.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
+
             builder.Property(p => p.Image).HasMaxLength(100);
 
 

@@ -1381,7 +1381,7 @@ body {
 #detail .product-info .prod-name h3 {
   font-size: 20px;
   font-weight: 600;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #detail .product-info .prod-rate {
@@ -1402,7 +1402,7 @@ body {
 
 #detail .product-info .prod-price h2 {
   font-size: 25px;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #detail .product-info .prod-desc {
@@ -1412,7 +1412,7 @@ body {
 #detail .product-info .prod-desc p {
   padding-right: 100px;
   font-size: 18px;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 30px;
 }
 
@@ -1426,13 +1426,19 @@ body {
   padding: 10px 20px;
   border-radius: 10px;
   text-decoration: none;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: all .5s ease;
 }
 
 #detail .product-info .prod-basket-hearth ul li a:hover {
   background-color: #FF0000;
   color: #FFFFFF;
+}
+
+#detail #suggestions .suggestion-header h1 {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 #detail .owl-carousel .owl-nav .owl-prev {

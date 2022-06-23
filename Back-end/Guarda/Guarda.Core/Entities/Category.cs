@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,7 @@ namespace Guarda.Core.Entities
     {
         public string Name { get; set; }
         public List<Subcategory> Subcategories { get; set; }
+        public string Image { get; set; }
+        public IFormFile ImageFile { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kZP+8ZJVz2HHYpf9qSWJVJtxWkJH4ABLWRq2GLxb4WI=",
+  "Hash": "/TtnbscAYTxsbI0HZ5wMDIw556vKTlzyBGDpmQE43wQ=",
   "Source": "Guarda",
   "BasePath": "_content/Guarda",
   "Mode": "Default",
@@ -238,12 +238,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\AQS810W-3AV.webp"
     },
     {
-      "Identity": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\wwwroot\\assets\\images\\cute-boy-wearing-stylish-shirt-stay-near-school-looking-his-smart-watch-touching-screen-child-using-electronic-device-205094106.jpg",
+      "Identity": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\wwwroot\\assets\\images\\child.jpg",
       "SourceId": "Guarda",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\wwwroot\\",
       "BasePath": "_content/Guarda",
-      "RelativePath": "assets/images/cute-boy-wearing-stylish-shirt-stay-near-school-looking-his-smart-watch-touching-screen-child-using-electronic-device-205094106.jpg",
+      "RelativePath": "assets/images/child.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,7 +252,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\cute-boy-wearing-stylish-shirt-stay-near-school-looking-his-smart-watch-touching-screen-child-using-electronic-device-205094106.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\child.jpg"
     },
     {
       "Identity": "D:\\Guarda\\Guarda\\Back-end\\Guarda\\Guarda\\wwwroot\\assets\\images\\favicon.ico",

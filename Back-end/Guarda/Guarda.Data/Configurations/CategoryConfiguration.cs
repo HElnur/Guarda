@@ -16,6 +16,10 @@ namespace Guarda.Data.Configurations
             builder.Property(c => c.Name).HasMaxLength(50).IsRequired();
 
             builder.Property(c => c.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
+
+            builder.Property(c => c.Image).HasMaxLength(100);
+
+            builder.Ignore(c => c.ImageFile);
         }
     }
 }

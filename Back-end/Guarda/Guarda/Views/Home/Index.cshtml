@@ -27,37 +27,21 @@
                     </div>
                 </div>
                 <div class="row">
+                    @foreach (var category in Model.Categories)
+                {
                     <div class="col-lg-4 col-sm-12">
                         <a href="#">
                             <div class="box"
-                                style="background-image: url('/assets/images/pexels-anders-kristensen-447570.jpg');">
+                                style="background-image: url('/assets/images/@category.Image');">
                                 <div class="box-name d-flex justify-content-center align-items-center">
-                                    <h1>Men</h1>
+                                    <h1>@category.Name</h1>
                                 </div>
                             </div>
                         </a>
 
                     </div>
-                    <div class="col-lg-4 col-sm-12">
-                        <a href="#">
-                            <div class="box"
-                                style="background-image: url('/assets/images/pexels-melike-benli-12215971.jpg');">
-                                <div class="box-name d-flex justify-content-center align-items-center">
-                                    <h1>Women</h1>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-12">
-                        <a href="#">
-                            <div class="box"
-                                style="background-image: url('/assets/images/cute-boy-wearing-stylish-shirt-stay-near-school-looking-his-smart-watch-touching-screen-child-using-electronic-device-205094106.jpg');">
-                                <div class="box-name d-flex justify-content-center align-items-center">
-                                    <h1>Child</h1>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                }
+                    
                 </div>
             </div>
         </section>
@@ -100,12 +84,14 @@
                     <div class="tab-pane fade show classic active" id="pills-classic" role="tabpanel"
                         aria-labelledby="pills-classic-tab">
                         <div class="owl-carousel owl-theme owl-carousel-trending mt-5">
+                            @foreach (var classic in Model.IsClassic)
+                        {
                             <div class="item">
                                 <div class="product">
                                     <div class="image">
-                                        <img src="/assets/images/a171we-1aef_1.png" alt="">
+                                        <img src="/assets/images/@classic.Image" alt="">
                                         <div class="discount-percent position-absolute">
-                                            <span>-10%</span>
+                                            <span>-@classic.DiscountPercent%</span>
                                         </div>
                                         <div class="options">
                                             <ul class="d-flex">
@@ -132,156 +118,20 @@
 
                                     <div class="desc text-center mt-3">
                                         <div class="name">
-                                            <h3>A171WE-1AEF</h3>
+                                            <h3>@classic.Name</h3>
                                         </div>
 
                                         <div class="price d-flex justify-content-center mt-2 mb-4">
-                                            <span class="discount-price pe-5">90<span class="unit">₼</span></span>
-                                            <span class="sale-price">120<span class="unit">₼</span></span>
+                                            <span class="discount-price pe-5">(@classic.SalePrice - ((@classic.SalePrice) - @classic.SalePrice / 100)<span class="unit">₼</span></span>
+                                            <span class="sale-price">@classic.SalePrice<span class="unit">₼</span></span>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
+                        }
 
-                            <div class="item">
-                                <div class="product">
-                                    <div class="image">
-                                        <img src="/assets/images/a163wa-1qes-1080.png" alt="">
-
-                                        <div class="discount-percent position-absolute">
-                                            <span>-10%</span>
-                                        </div>
-
-                                        <div class="options">
-                                            <ul class="d-flex">
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-shopping-cart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-eye"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="desc text-center mt-3">
-                                        <div class="name">
-                                            <h3>A163WA-1QES</h3>
-                                        </div>
-
-                                        <div class="price d-flex justify-content-center mt-2">
-                                            <span class="discount-price pe-5">90<span class="unit">₼</span></span>
-                                            <span class="sale-price">120<span class="unit">₼</span></span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="product">
-                                    <div class="image">
-
-                                        <img src="/assets/images/aq-230egg-9aef.jpg" alt="">
-
-                                        <div class="discount-percent position-absolute">
-                                            <span>-10%</span>
-                                        </div>
-
-                                        <div class="options">
-                                            <ul class="d-flex">
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-shopping-cart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-eye"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="desc text-center mt-3">
-                                        <div class="name">
-                                            <h3>AQ-230EGG-9AEF</h3>
-                                        </div>
-
-                                        <div class="price d-flex justify-content-center mt-2">
-                                            <span class="discount-price pe-5">90<span class="unit">₼</span></span>
-                                            <span class="sale-price">120<span class="unit">₼</span></span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="product">
-                                    <div class="image">
-                                        <img src="/assets/images/T006.407.11.043.00_R_1.webp" alt="">
-
-                                        <div class="discount-percent position-absolute">
-                                            <span>-10%</span>
-                                        </div>
-
-                                        <div class="options">
-                                            <ul class="d-flex">
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-shopping-cart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/detail.html">
-                                                        <i class="fas fa-eye"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="desc text-center mt-3">
-                                        <div class="name">
-                                            <h3>Tissot Le Locle Powermatic 80</h3>
-                                        </div>
-
-                                        <div class="price d-flex justify-content-center mt-2">
-                                            <span class="discount-price pe-5">90<span class="unit">₼</span></span>
-                                            <span class="sale-price">120<span class="unit">₼</span></span>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="tab-pane fade sport" id="pills-sport" role="tabpanel" aria-labelledby="pills-sport-tab">
