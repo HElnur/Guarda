@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Guarda.Core.Enums;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace Guarda.Core.Entities
     public class AppUser:IdentityUser
     {
         public string FullName { get; set; }
+        public Gender Gender { get; set; }
 
         //Audit info
         public DateTime CreatedAt { get; set; }

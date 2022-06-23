@@ -108,7 +108,9 @@ namespace Guarda.Data.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -123,19 +125,10 @@ namespace Guarda.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<bool>("IsClassic")
-                        .HasColumnType("bit");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsLike")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsSmart")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsSport")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsSuggestion")

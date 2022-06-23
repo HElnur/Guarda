@@ -925,6 +925,7 @@ body {
 .login-page {
   display: flex;
   justify-content: center;
+  font-family: "Poppins" , sans-serif;
 }
 
 .prewiev-hero {

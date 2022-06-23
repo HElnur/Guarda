@@ -45,6 +45,16 @@
                 </span>
             </label>
 
+            <label class="input-hero" for="fullname">
+                <input type="fullname" name="fullname" id="fullname" required />
+                <span class="input-name"> Fullname </span>
+                <span class="input-icon">
+                    <i class='bx bx-user'></i>
+                </span>
+            </label>
+
+            
+
             <label class="input-hero" for="email">
                 <input type="email" name="email" id="email" required />
                 <span class="input-name"> Email </span>
@@ -90,14 +100,18 @@
                             stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </span>
-                
+
             </label>
 
-            <label for="remember" class="checkbox-hero">
-                <input type="checkbox" name="remember" id="remember" />
-                <span class="checkbox-cover"></span>
-                <span class="checkbox-name"> Remember Me </span>
-            </label>
+            <fieldset id="setD">
+                <input id="setD_male" type="radio" name="setD_gender">
+                    <label for="setD_male">Male</label>
+                <input id="setD_female" type="radio" name="setD_gender">
+                    <label for="setD_female">Female</label>
+            </fieldset>
+
+
+
 
             <button type="submit" class="submit-btn btn">Register</button>
 

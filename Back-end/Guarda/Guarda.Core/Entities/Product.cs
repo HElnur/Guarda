@@ -17,9 +17,6 @@ namespace Guarda.Core.Entities
         public bool StockStatus { get; set; }
         public string Image { get; set; }
         public IFormFile ImageFile { get; set; }
-        public bool IsClassic { get; set; }
-        public bool IsSport { get; set; }
-        public bool IsSmart { get; set; }
         public bool IsLike { get; set; }
         public bool IsSuggestion { get; set; }
         public bool IsDeleted { get; set; }
