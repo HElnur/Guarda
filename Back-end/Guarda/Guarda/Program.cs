@@ -1,4 +1,6 @@
+using Guarda.Core.Entities;
 using Guarda.Data.DAL;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,16 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+
+
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequiredUniqueChars = 0;
+    opt.Password.RequireUppercase = true;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.User.RequireUniqueEmail = false;
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
 

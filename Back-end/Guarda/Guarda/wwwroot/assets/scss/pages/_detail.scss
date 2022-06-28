@@ -4,8 +4,9 @@
             h3 {
                 font-size: 20px;
                 font-weight: 600;
-                font-family: "Poppins" , sans-serif;
+                font-family: "Poppins", sans-serif;
             }
+
             margin-bottom: 20px;
         }
 
@@ -13,26 +14,30 @@
             i {
                 font-size: 20px;
             }
+
             .bxs-star {
                 color: #FFD700;
             }
+
             margin-bottom: 20px;
         }
 
         .prod-price {
             margin-bottom: 20px;
+
             h2 {
                 font-size: 25px;
-                font-family: "Poppins" , sans-serif;
+                font-family: "Poppins", sans-serif;
             }
         }
 
         .prod-desc {
             margin-bottom: 30px;
+
             p {
                 padding-right: 100px;
                 font-size: 18px;
-                font-family: "Poppins" , sans-serif;
+                font-family: "Poppins", sans-serif;
                 line-height: 30px;
             }
         }
@@ -41,20 +46,32 @@
             ul {
                 li {
                     padding: 0px 10px;
+
                     a {
                         color: #FF0000;
                         border: 1px solid #FF0000;
                         padding: 10px 20px;
                         border-radius: 10px;
                         text-decoration: none;
-                        font-family: "Poppins" , sans-serif;
+                        font-family: "Poppins", sans-serif;
                         transition: all .5s ease;
+
                         &:hover {
                             background-color: #FF0000;
                             color: #FFFFFF;
                         }
                     }
                 }
+            }
+        }
+    }
+
+    #suggestions {
+        .suggestion-header {
+            h1 {
+                font-size: 40px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
             }
         }
     }
@@ -103,6 +120,7 @@
         .owl-stage {
             margin: 20px 0px;
         }
+
         .item {
             .product {
 
@@ -117,7 +135,7 @@
 
                     .image {
                         img {
-                            transform: scale(1.1 , 1.1);
+                            transform: scale(1.1, 1.1);
                         }
                     }
                 }
@@ -131,6 +149,7 @@
                     .discount-percent {
                         left: 10px;
                         top: 10px;
+
                         span {
                             padding: 3px;
                             color: #ffffff;
@@ -138,7 +157,7 @@
                             font-family: 'Poppins', sans-serif;
                             background-color: #ff0000;
                             border-radius: 10px;
-                            
+
                         }
                     }
 
@@ -158,6 +177,7 @@
                         ul {
                             background-color: rgba($color: #000000, $alpha: 0.6);
                             justify-content: center;
+
                             li {
                                 a {
                                     i {

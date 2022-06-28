@@ -13,6 +13,8 @@ namespace Guarda.Core.Entities
         public string FullName { get; set; }
         public Gender Gender { get; set; }
 
+        public bool IsAdmin { get; set; }
+
         //Audit info
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }

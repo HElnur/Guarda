@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Guarda.Business\Guarda.Business.csproj" />
     <ProjectReference Include="..\Guarda.Core\Guarda.Core.csproj" />
     <ProjectReference Include="..\Guarda.Data\Guarda.Data.csproj" />
   </ItemGroup>

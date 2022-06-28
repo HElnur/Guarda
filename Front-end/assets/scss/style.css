@@ -883,10 +883,6 @@ footer .footer-social-menu .footer-social li a:hover {
   --submit-shadow: rgba(33, 85, 205, 0.25);
 }
 
-* {
-  font-family: Rubik, sans-serif;
-}
-
 *,
 :after,
 :before {
