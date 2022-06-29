@@ -32,17 +32,17 @@ namespace Guarda.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> SignIn(SignUpDto signupdto)
+        public async Task<IActionResult> SignUp(SignUpDto signupdto)
         {
 
             var userExistEmail = await _userManager.FindByEmailAsync(signupdto.Email);
-            if (userExistEmail == null)
+            if (userExistEmail != null)
             {
                 ModelState.AddModelError("Email", "Email is Already");
             }
 
             var userExistUsername = await _userManager.FindByNameAsync(signupdto.UserName);
-            if(userExistUsername == null)
+            if(userExistUsername != null)
             {
                 ModelState.AddModelError("UserName", "Username is already");
             }
@@ -56,8 +56,21 @@ namespace Guarda.Controllers
             {
                 UserName = signupdto.UserName,
                 Email = signupdto.Email,
-                
+                IsAdmin = false,
+                FullName = signupdto.FullName
             };
+
+            var result = await _userManager.CreateAsync(newUser, signupdto.Password);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View();
+            }
+            await _userManager.AddToRoleAsync(newUser, "Member");
+            await _signInManager.PasswordSignInAsync(newUser, signupdto.Password, false, false);
 
             return RedirectToAction("index", "home");
         }

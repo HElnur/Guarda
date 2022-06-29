@@ -1,7 +1,10 @@
-﻿@{
+﻿@using Guarda.Business.DTOs.Authentication
+@{
     ViewData["Title"] = "Sign up";
     Layout = null;
 }
+
+@model SignUpDto
 
 <!DOCTYPE html>
 <html lang="en">
@@ -51,27 +54,30 @@
             <h1 class="login-title">Hello Again!</h1>
         </div>
 
-        <form onsubmit="return false" class="form">
-            <label class="input-hero" for="username">
-                <input type="username" name="username" id="username" required />
+        <form asp-controller="authenticate" asp-action="SignUp" class="form">
+            <label class="input-hero">
+                <input asp-for="UserName" id="username" required />
+                
                 <span class="input-name"> Username </span>
                 <span class="input-icon">
                     <i class='bx bx-user'></i>
                 </span>
             </label>
+            <span asp-validation-for="UserName" class="text-danger"></span>
 
-            <label class="input-hero" for="fullname">
-                <input type="fullname" name="fullname" id="fullname" required />
+            <label class="input-hero">
+                <input asp-for="FullName" id="fullname" required />
                 <span class="input-name"> Fullname </span>
                 <span class="input-icon">
                     <i class='bx bx-user'></i>
                 </span>
             </label>
+                <span asp-validation-for="FullName" class="text-danger"></span>
 
             
 
-            <label class="input-hero" for="email">
-                <input type="email" name="email" id="email" required />
+            <label class="input-hero">
+                <input asp-for="Email" id="email" required />
                 <span class="input-name"> Email </span>
                 <span class="input-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -84,9 +90,11 @@
                     </svg>
                 </span>
             </label>
+                <span asp-validation-for="Email" class="text-danger"></span>
 
-            <label class="input-hero password-input" for="password">
-                <input type="password" name="password" id="password" required />
+
+            <label class="input-hero password-input">
+                <input asp-for="Password" id="password" required />
                 <span class="input-name"> Password </span>
                 <span class="input-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -100,9 +108,11 @@
                     </svg>
                 </span>
             </label>
+                <span asp-validation-for="Password" class="text-danger"></span>
 
-            <label class="input-hero repeatPassword-input" for="repeatPassword">
-                <input type="repeatPassword" name="repeatPassword" id="repeatPassword" required />
+
+            <label class="input-hero repeatPassword-input">
+                <input asp-for="RepeatPassword" id="repeatPassword" required />
                 <span class="input-name"> Repeat password </span>
                 <span class="input-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -117,13 +127,15 @@
                 </span>
 
             </label>
+                <span asp-validation-for="RepeatPassword" class="text-danger"></span>
 
-            <fieldset id="setD">
+
+           @* <fieldset id="setD">
                 <input id="setD_male" type="radio" name="setD_gender">
                     <label for="setD_male">Male</label>
                 <input id="setD_female" type="radio" name="setD_gender">
                     <label for="setD_female">Female</label>
-            </fieldset>
+            </fieldset>*@
 
 
 
